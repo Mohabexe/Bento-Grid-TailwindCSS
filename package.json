@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "npx": "^10.2.2"
+  },
+  "name": "bento-grid-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Bento grid coding challenge](./preview.jpg)",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwindcss": "npx tailwindcss -i ./src/input.css -o ./build/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
